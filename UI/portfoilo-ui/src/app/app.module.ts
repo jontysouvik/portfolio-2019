@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavComponent } from './components/nav/nav.component';
 import { SouvikComponent } from './components/souvik/souvik.component';
+import { RamComponent } from './components/ram/ram.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavComponent,
-    SouvikComponent
+    SouvikComponent,
+    RamComponent
   ],
   imports: [
     BrowserModule,
