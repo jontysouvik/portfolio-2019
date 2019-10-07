@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { SouvikComponent } from './components/souvik/souvik.component';
+import { RamComponent } from './components/ram/ram.component';
 
 
 const routes: Routes = [
@@ -9,7 +10,7 @@ const routes: Routes = [
   { path: 'souvik', component: SouvikComponent},
   { path: 'divya', component: SouvikComponent},
   { path: 'kalyani', component: SouvikComponent},
-  { path: 'ram', component: SouvikComponent},
+  { path: 'ram', component: RamComponent},
   { path: 'shanmukhi', component: SouvikComponent},
   { path: 'sreeram', component: SouvikComponent},
   { path: 'santosh', component: SouvikComponent},
