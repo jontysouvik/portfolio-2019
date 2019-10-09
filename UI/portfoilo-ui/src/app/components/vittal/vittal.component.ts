@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class VittalComponent implements OnInit {
 
   constructor() { }
-
+  name = "Vittal Nellutla";
+  image ="assets/vittal.jpg";
   ngOnInit() {
   }
 
